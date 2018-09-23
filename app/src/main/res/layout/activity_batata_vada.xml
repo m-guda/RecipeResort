@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Batata Vada"
+                    android:gravity="center"
+                    android:textSize="22dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.35">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/batatavada"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.025">
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.44">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Ingredients
+  •    500 gm potatoes •  Oil for deep frying •   Tempering: •  5 gm mustard seeds •   2 gm curry leaves •    5 gm turmeric powder • 3 gm red chilli powder •   10 gm green chillies • 10 gm ginger • 10 gm garlic • 1 lime •   10 gm coriander leaves •   Salt •  Batter: • 200 gm gram flour •    Water •    5 gm red chilli powder •   5 gm turmeric •    3 gm crushed cumin •   Salt • 2 gm soda bi-carb
+"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.6">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Method
+ 1.Cook the potatoes until soft, peel and mash coarsely.
+ 2.Chop or crush together the green chillies, garlic, ginger and the coriander leaves.
+ 3.Using the mentioned ingredients make a thick batter.
+ 4.Heat oil and add mustard seeds, after they crackle add the curry leaves.
+ 5.Mix in all the rest of the tempering ingredients and add to the mashed potatoes.
+ 6.Divide the potato mixture into equal sized portions, approximately the size of a lemon.
+ 7.Dip each ball in the batter and deep fry until golden brown in color.
+"
+                    android:gravity="center"
+                    android:textSize="15dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="•Cook Time:30 Minutes"
+                    android:gravity="center"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="•Recipe Servings: 4 "
+                    android:gravity="center"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Youtube link: https://www.youtube.com/watch?v=_ELe_rMgkeA"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

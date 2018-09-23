@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Til-e-Paneer"
+                    android:gravity="center"
+                    android:textSize="22dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.35">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tilepaneer"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.025">
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.44">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Ingredients
+•  Oven temp: 400 F-204 C •   500 gm paneer (Indian cottage cheese), cut into 1 1/2inch cubes • 2 tsp garlic paste •   2 tsp ginger paste •   1 tsp powdered black pepper •  1 Tbsp salt to taste • 2 Tbsp coriander leaves, chopped • Green chillies, chopped to taste • 1/4 cup yogurt •   1/4 cup white sesame seeds (Safed til), roasted •  Oil to brush the paneer, optional •    Lemon wedges, to garnish • Onion rings, to garnish"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.7">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Method
+1. Mix all the ingredients except the oil and garnishes and leave for 20-30 minutes at least.
+2.  Place the paneer on a drip pan and bake in the pre-heated oven for about 10mins.
+3.    Remove from oven, dab with oil and bake again for 10 minutes. Alternatively, you can grill on a griller or a barbecue pit.
+(The drippings should definitely have a means of escape, or else the paneer will get soggy).
+4. Serve hot, garnished with lemon and onion rings
+"
+                    android:gravity="center"
+                    android:textSize="15dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="•Cook Time:40 Minutes"
+                    android:gravity="center"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="•Recipe Servings: 4 "
+                    android:gravity="center"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Youtube link: https://www.youtube.com/watch?v=ZigB8hk7_9w"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

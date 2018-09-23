@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Gobi Masaledar"
+                    android:gravity="center"
+                    android:textSize="22dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.35">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gobhi"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.025">
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.44">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Ingredients
+ • 1 kg gobhi-cut into small florets 3-4 green chillies-slit a little 1 cup grated onions 1 tsp garlic paste 1 tsp ginger paste 1 cup tomato-grated 1/4 cup oil 2 tsp cumin seeds 2 bay leaves 1/2 tsp turmeric 1 Tbsp salt 1/2 tsp garam masala 1/2 tsp powdered red pepper 1 Tbsp powdered coriander seeds 1 Tbsp chopped coriander leaves - for garnish
+"
+
+                    android:gravity="center"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.6">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Method
+1.Heat oil and add the cumin seeds and the bay leaves. When seeds splutter, add the onions, ginger and garlic and saute till brown and fat separates. Add the tomatoes, turmeric, salt, garam masala, red pepper and the coriander powder, and stir fry till the fat separates.
+2.Add the gobhi and the green chillies and saute over high heat till the vegetables look glossy.
+3.Lower the heat and simmer, covered till cooked through.
+4.Serve hot, garnished with the coriander leaves"
+                    android:gravity="center"
+                    android:textSize="15dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="•Cook Time:30 Minutes"
+                    android:gravity="center"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="•Recipe Servings: 3 "
+                    android:gravity="center"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Youtube link: https://www.youtube.com/watch?v=sHzvp7QPfEg"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

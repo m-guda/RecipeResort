@@ -1,0 +1,144 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Focacia Bread"
+                    android:gravity="center"
+                    android:textSize="22dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/focacia"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.025">
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Ingredients
+•	250 gms flour
+•	55-60 ml olive oil
+•	135 ml water
+•	20 gms sugar
+•	10 gms salt
+•	20 gms yeast
+•
+For the topping:
+•	1/2 tsp olive
+•	1/2 cup parmesan cheese
+•	3-4 sliced onions
+•	3 tomatoes
+•	15 - 20 black olives
+•	Few leaves basil leaves
+•	A few thyme leaves
+•	Black pepper to taste
+"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.9">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Method
+1.	Dissolve the yeast with some water and a pinch of sugar.
+2.	Put flour, olive oil, water, sugar, salt and dissolved yeast in a mixer with a dough hook and mix until dough is formed.
+3.	Start slow and then go faster.
+4.	Once the dough leaves the hook easily, that's when you know your dough is ready.
+5.	Leave to rest until it is double its size. (15-20 minutes)
+6.	Keep covered with cling film, in a dry warm space.
+7.
+For the Topping:
+8.	In a sauce pan put some olive oil and caramelize the onions slowly.
+9.	Put some thyme leaves and let it cook for a bit, then add cracked black pepper.
+10.	Smash the green and black olives in a bowl. Keep aside
+11.	Slice the tomatoes and keep aside.
+12.
+For Assembling and Baking:
+13.	Put the dough into the greased pie dish. Put a little olive oil over the dough to flatten it with your fingers.
+14.	To knock back the dough, use your fingertips.
+15.	Make small craters with your fingers.
+16.	Top it with the caramelized onions, olives and tomato slices.
+17.	Add some basil leaves, grated parmesan cheese, some olive oil and pepper.
+18.	Place it in the middle rack of the oven at 180 degrees for about 20-25 minutes.
+19.	Serve with the Peperonata."
+                    android:gravity="center"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="•Cook Time: 1 Hour 30 Minutes "
+                    android:gravity="center"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="•Recipe Servings: NA "
+                    android:gravity="center"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Youtube link:
+                   https://www.youtube.com/watch?v=yuatg8WRs6U"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

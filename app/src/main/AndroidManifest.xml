@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.reciperesort">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".Health" />
+        <activity android:name=".Festival" />
+        <activity android:name=".Ingredient" />
+        <activity android:name=".Home2Activity" />
+        <activity android:name=".CheesePizza" />
+        <activity android:name=".TempuraPrawns" />
+        <activity android:name=".FocaciaBread" />
+        <activity android:name=".HotnSour" />
+        <activity android:name=".HyderabadiBiryani" />
+        <activity android:name=".MedhuVada" />
+        <activity android:name=".Dhokla" />
+        <activity android:name=".NeerDosa" />
+        <activity android:name=".DalMakhni" />
+        <activity android:name=".BrocolliOmelette" />
+        <activity android:name=".HoneyGrapefruit" />
+        <activity android:name=".PepperChicken" />
+        <activity android:name=".CelerySoup" />
+        <activity android:name=".AlmondKulfi" />
+        <activity android:name=".PistaPhirni" />
+        <activity android:name=".HotSouffle" />
+        <activity android:name=".AamShrikhand" />
+        <activity android:name=".ShahiTukda" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".Cuisine" />
+        <activity android:name=".World" />
+        <activity android:name=".Indian" />
+        <activity android:name=".CheeseSouffle" />
+        <activity android:name=".WhiteBean" />
+        <activity android:name=".Cointreau" />
+        <activity android:name=".BatataVada" />
+        <activity android:name=".TilePaneer" />
+        <activity android:name=".BasilTomatoSoup" />
+        <activity android:name=".GobiMasaledar" />
+        <activity android:name=".PepperSalad" />
+        <activity android:name=".test2" />
+        <activity android:name=".Tips"></activity>
+    </application>
+
+</manifest>
